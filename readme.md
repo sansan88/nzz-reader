@@ -1,4 +1,4 @@
-# NZZ JavaScript & Class Controller
+# NZZ Reader
 
 Eine Firefox-Erweiterung speziell für nzz.ch, die JavaScript-Kontrolle und das Entfernen von störenden Elementen ermöglicht.
 
