@@ -34,14 +34,13 @@ browser.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 });
 
 // Optional: Auto-remove class on page load (uncomment if desired)
-window.addEventListener('load', function () {
-  const elements = document.querySelectorAll(".nzzinteraction");
-  elements.forEach(el => {
-    el.classList.remove("nzzinteraction");
-  });
-  const overlayElements = document.querySelectorAll("div.disabled-overlay.disabled-overlay--show");
-  overlayElements.forEach(el => {
-    el.remove(); // Completely remove the element from DOM
-  });
-
-});
+// window.addEventListener('load', function () {
+ // const elements = document.querySelectorAll(".nzzinteraction");
+ // elements.forEach(el => {
+ //   el.classList.remove("nzzinteraction");
+ // });
+ // const overlayElements = document.querySelectorAll("div.disabled-overlay.disabled-overlay--show");
+ // overlayElements.forEach(el => {
+ //   el.remove(); // Completely remove the element from DOM
+ // });
+// });

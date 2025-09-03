@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "NZZ JavaScript & Class Controller",
-  "version": "1.0",
+  "name": "NZZ Reader",
+  "version": "1.1",
   "description": "Toggle JavaScript and remove nzzinteraction class on NZZ.ch",
   
   "permissions": [
